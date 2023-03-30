@@ -73,17 +73,27 @@ p {
     background-size: cover;
 
 }
+.aside2 {
+    background-color: darkblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 30px;
+
+}
 .foo {
     background-color: rgba(11, 83, 218, 0.993);
+    font-family: 'Delicious Handrawn', cursive;
     width: auto;
     height: 150px;
     text-align: center;
     font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
     padding: 20px;
 
 }
 footer i {
+    font-size: 40px;
     letter-spacing: 10px;
     color:#000
 }
