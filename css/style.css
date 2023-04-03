@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@100;400&family=Delicious+Handrawn&family=Dosis:wght@700&family=Fugaz+One&family=Genos:wght@500&family=Kaushan+Script&family=Titan+One&display=swap');
+
+nav {
+    height: 50px;
+}
+
+
+
+body {
+    background-image: url(../img/koalika-g2703f3c68_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(31, 2, 2, 0.658);
+
+
+}
+
+.logo {
+    color: yellow;
+
+}
+
+h1 {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 70px;
+    color: cornflowerblue;
+    text-align: center;
+    border: 0 5 solid;
+    color: darkgoldenrod;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 40px;
+    color: darkgoldenrod;
+    text-align: center;
+
+}
+
+h3 {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 40px;
+    color: sandybrown;
+    text-align: center;
+
+}
+
+.container-fluid {
+    background-color: wheat;
+    border: 3px solid;
+    color: #000;
+
+
+}
+
+.aside {
+    height: 200px;
+    border: 3px solid #000
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: aqua;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.asidep {
+    color: bisque;
+    text-transform: uppercase;
+}
+
+.aside1 {
+    background-image: url(../img/BattleMe.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.aside2 {
+    background-color: darkblue;
+    text-align: center;
+
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;
+}
+
+.foo {
+    background-color: rgba(11, 83, 218, 0.993);
+    font-family: 'Delicious Handrawn', cursive;
+    width: auto;
+    height: 150px;
+    text-align: center;
+    font-size: 30px;
+
+    padding: 20px;
+
+}
+
+footer i {
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: #000
+}
+
+footer i:hover {
+    color: bisque
+}
+
+.titulog {
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.bodyg {
+    background-image: url(../img/koalika-g2703f3c68_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.galeria {
+    height: 400px;
+    width: 100%;
+    background-color: rgba(31, 2, 2, 0.658);
+}
+
+.img {
+    border: 3px solid;
+    color: #000;
+}
+
+.img1 {
+    background-image: url(../img/Canserbero_\ Complete\ Edition.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.img2 {
+    height: 400px;
+    background-image: url(../img/Acru\ Roman.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+    height: 400px;
+    background-image: url(../img/4d33c1ea-fc7e-496f-aa35-69ef36efcd21.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img4 {
+    height: 400px;
+    background-image: url(../img/wosito\ ♥︎.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artv {
+    background-color: darkcyan;
+    padding: 20px 60px 30px 40px;
+
+}
+
+.titu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.row {
+    background-color: darkcyan;
+}
+
+.acrui {
+    height: 500px;
+ 
+}
+
+.canser {
+    height: 500px;
+}

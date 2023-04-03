@@ -10,30 +10,101 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Galeria</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>galeria</title>
 </head>
 
-<body>
-    <!--navbar inicio-->
-    <nav class="navbar navbar-expand-md bg-primary navbar-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href="../pages/galeria.html">Mundo🎶<span class="logo">Hip Hop</span></a>
+<body class="bodyg">
+    <header>
+        <!--navbar inicio-->
+        <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="../index.html">Mundo🎶<span class="logo">Hip Hop</span></a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">inicio</a>
-                </li>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">inicio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--navbar final-->
+        <div id="demo" class="carousel slide col-sm-12" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
             </ul>
+
+            <!-- The slideshow -->
+
+            <div class="carousel-inner col-sm-12">
+                <div class="carousel-item active text-center">
+                    <img src="../img/fondo carusel 1.jpg" class="col-md-8" width="800px" height="auto" alt="foto1">
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="../img/rap-g84fc4c339_640.jpg" class="col-md-8" width="800px" height="auto" alt="foto2">
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="../img/boy-g81f8f7a02_640.jpg" class="col-md-8" width="700px" height="auto" alt="foto3">
+                </div>
+            </div>
+
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
         </div>
-    </nav>
-    <!--navbar final-->
+    </header>
+    <main>
+        <section>
+            <h1>VIDEOS Y FOTOS DE TUS ARTISTAS</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3 img1"></div>
+                    <div class="col-sm-3 img2"></div>
+                    <div class="col-sm-3 img3"></div>
+                    <div class="col-sm-3 img4"></div>
+                </div>
+            </div>
+        </section>
+
+        <article class="artv">
+            <div class="container col-sm-12">
+                <div class="row">
+                    <iframe class="col-sm-6 col-md-9 col-lg-12 canser" width="560" height="315" src="https://www.youtube.com/embed/dGzpsBSJZow"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <h3 class="titu">Canserbero - Maquiavelico (Video Oficial)</h3>
+                    <p>Canserbero, fue un cantante y compositor de música urbana, hip-hop y rap venezolano, nació en
+                        Caracas, Venezuela, el 11 de marzo de1988, falleció en Maracay, Estado Aragua, Venezuela, el 20
+                        de
+                        enero de 2015, conocido por ser uno de los grandes exponentes del genero urbano de los 2000.</p>
+                    <iframe class="col-sm-6 col-md-9 col-lg-12 acrui" width="560" height="315" src="https://www.youtube.com/embed/OT8ihaDe_iA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <h3>Acru - Delirio (Video Oficial)</h3>
+                        <p>Agustín Cruz, conocido en el espectáculo musical como Acru, es un cantante y rapero argentino. Nació el 4 de junio de 1997 en Tucumán, Argentina. Siendo adolescente, se hizo un nombre en la escena del rap de su país.</p>
+                    </div>
+            </div>
+        </article>
+    </main>
 
 
 
