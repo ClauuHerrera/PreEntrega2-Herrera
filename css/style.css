@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@100;400&family=Delicious+Handrawn&family=Dosis:wght@700&family=Fugaz+One&family=Genos:wght@500&family=Kaushan+Script&family=Titan+One&display=swap');
 
-nav {
-    height: 50px;
-}
-
-
 
 body {
     background-image: url(../img/koalika-g2703f3c68_1280.jpg);
@@ -181,10 +176,13 @@ footer i:hover {
 }
 
 .acrui {
-    height: 500px;
+    height: 400px;
  
 }
 
 .canser {
-    height: 500px;
+    height: 400px;
+}
+.wos {
+    height: 400px;
 }
